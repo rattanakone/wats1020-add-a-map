@@ -4,6 +4,13 @@
 
 #map-container { height: 180px; }
 
+#stats dd {
+	font-style: italic;
+}
+
+#stats dt {
+	font-size: 20px;
+}
 
 
 
