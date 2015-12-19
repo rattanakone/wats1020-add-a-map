@@ -1,3 +1,4 @@
+new WOW().init();
 
 var map = L.map('map').setView([46.844, -121.717], 13); //invoke the Leaflet.js library to draw a map in `#map-container` div
 
