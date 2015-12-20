@@ -1,8 +1,161 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html { 
+    -webkit-font-smoothing: antialiased; 
+}
 
-#map-container { height: 180px; }
+body {
+    overflow-x: hidden;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    background: white;
+}
+
+#bg-light-gray {
+	padding-top: 50px;
+	padding-bottom: 150px;
+    background-color: #FCFCFC;
+}
+
+#my-nav {
+	margin-bottom: 0;
+	border-radius: 0;
+	border: 0;
+	padding: 10px;
+	background: white;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+#my-nav a {
+	color: black;
+	font-size: 21px;
+}
+
+#my-nav a:hover {
+	background: green;
+	color: white;
+	vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.inside-caption {
+	padding-top: 100px;
+	padding-bottom: 350px;
+}
+
+.carousel-font {
+	padding-bottom: 110px;
+}
+
+.carousel-font h3 {
+	font-size: 20px;
+}
+
+.heading-one {
+	font-size: 55px;
+}
+
+.heading-two {
+	font-size: 40px;
+}
+
+.custom-tabs {
+	
+	padding-left: 80px;
+}
+
+.climbers img {
+	height: 450px;
+	width: 500px;
+}
+
+.nav-tabs > li > a {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font-size: 20px;
+	color: black;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: black;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+#about {
+	font-size: 20px;
+	color: black;
+}
+
+#history {
+	font-size: 20px;
+	color: black;	
+}
+
+#statistics {
+	font-size: 20px;
+	color: black;
+}
+
+#links {
+	font-size: 20px;
+	color: black;
+}
+
+.links-list li {
+    list-style-type: none;
+}
+
+.links-list a {
+	color: black;
+}
+
+.links-list a:hover {
+	color: white;
+	text-decoration: none;
+	background: green;
+	padding: 10px;
+	vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.quote {
+	padding: 150px;
+	padding-bottom: 130px;
+}
+
+
+
+#map-container { 
+	height: 500px;
+}
 
 #stats dd {
 	font-style: italic;
@@ -12,11 +165,34 @@
 	font-size: 20px;
 }
 
+#home {
+	padding: 50px;
 
+}
 
+.fa-tree {
+	color: green;
+}
 
+#compass {
+	padding: 50px;
+}
 
+#maps {
+	padding-top: 45px;
+	padding-bottom: 10px;
+}
 
+.footer a {
+	color: green;
+
+}
+
+.footer a:hover {
+	background: green;
+	color: white;
+	text-decoration: none;
+}
 
 
 
