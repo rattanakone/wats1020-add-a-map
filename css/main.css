@@ -13,7 +13,6 @@ body {
 
 #bg-light-gray {
 	padding-top: 50px;
-	padding-bottom: 150px;
     background-color: #FCFCFC;
 }
 
@@ -38,47 +37,75 @@ body {
 	background: green;
 	color: white;
 	vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
 }
 .inside-caption {
-	padding-top: 100px;
-	padding-bottom: 350px;
+	padding-top: 10px;
+	padding-bottom: 100px;
 }
 
 .carousel-font {
-	padding-bottom: 110px;
+	padding-top: 100px;
+	padding-bottom: 30px;
 }
 
 .carousel-font h3 {
-	font-size: 20px;
+	font-size: 13px;
 }
 
 .heading-one {
-	font-size: 55px;
+	font-size: 25px;
 }
 
 .heading-two {
-	font-size: 40px;
+	font-size: 20px;
 }
 
-.custom-tabs {
-	
-	padding-left: 80px;
+
+@media(min-width:990px) {
+	#bg-light-gray {
+		padding-top: 45px;
+    	background-color: #FCFCFC;
+	}
+
+	.inside-caption {
+		padding-top: 100px;
+		padding-bottom: 350px;
+	}
+
+	.carousel-font {
+		padding-top: 10px;
+		padding-bottom: 110px;
+	}
+
+	.carousel-font h3 {
+		font-size: 20px;
+	}
+
+	.heading-one {
+		font-size: 55px;
+	}
+
+	.heading-two {
+		font-size: 30px;
+	}
 }
+
+
 
 .climbers img {
-	height: 450px;
-	width: 500px;
+	height: 350px;
+	width: 400px;
 }
 
 .nav-tabs > li > a {
@@ -100,22 +127,22 @@ body {
 }
 
 #about {
-	font-size: 20px;
+	font-size: 13px;
 	color: black;
 }
 
 #history {
-	font-size: 20px;
+	font-size: 13px;
 	color: black;	
 }
 
 #statistics {
-	font-size: 20px;
+	font-size: 13px;
 	color: black;
 }
 
 #links {
-	font-size: 20px;
+	font-size: 13px;
 	color: black;
 }
 
@@ -133,17 +160,17 @@ body {
 	background: green;
 	padding: 10px;
 	vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
 }
 
 .quote {
@@ -154,7 +181,7 @@ body {
 
 
 #map-container { 
-	height: 500px;
+	height: 400px;
 }
 
 #stats dd {
@@ -166,21 +193,20 @@ body {
 }
 
 #home {
-	padding: 50px;
-
+	padding: 10px;
+	font-size: 25px;
 }
 
 .fa-tree {
 	color: green;
 }
 
-#compass {
-	padding: 50px;
-}
-
 #maps {
 	padding-top: 45px;
-	padding-bottom: 10px;
+}
+
+.footer {
+	padding: 15px;
 }
 
 .footer a {
@@ -192,6 +218,38 @@ body {
 	background: green;
 	color: white;
 	text-decoration: none;
+}
+
+@media(min-width:990px) {
+	.climbers img {
+		height: 550px;
+		width: 600px;
+	}
+
+	#about {
+		font-size: 15px;
+		color: black;
+	}
+
+	#history {
+		font-size: 15px;
+		color: black;	
+	}
+
+	#statistics {
+		font-size: 15px;
+		color: black;
+	}
+
+	#links {
+		font-size: 15px;
+		color: black;
+	}
+
+	#home {
+		padding: 50px;
+		font-size: 35px;
+	}
 }
 
 
